@@ -25,6 +25,27 @@ and
 https://projectworlds.in/free-projects/php-projects/online-attendance-system-php-mysql-bootsrap/
 and
 https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04
+
+//////////////////////
+4: IMPORTANT STEP:
+
+if you are using UBUNTU server in AWS run following command
+
+  sudo cat /etc/mysql/debian.cnf
+you will see output like this >>>
+
+---------------------------------------------------------
+# Automatically generated for Debian scripts. DO NOT TOUCH!
+  [client]
+  host     = localhost
+  user     = debian-sys-maint
+  password = 24cZSZPgPZECdDyT               
+  socket   = /var/run/mysqld/mysqld.sock
+  [mysql_upgrade]
+  host     = localhost
+  user     = debian-sys-maint
+  password = 24cZSZPgPZECdDyT
+  socket   = /var/run/mysqld/mysqld.sock
 //////////////////////
 change apache port to 8000
 
