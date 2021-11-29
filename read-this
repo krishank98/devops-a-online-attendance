@@ -23,7 +23,8 @@ project url
 https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-20-04
 and
 https://projectworlds.in/free-projects/php-projects/online-attendance-system-php-mysql-bootsrap/
-
+and
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04
 //////////////////////
 change apache port to 8000
 
